@@ -10,7 +10,16 @@
     <link href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
     <link rel="stylesheet" href="css/styles.css" />
-    <script src="js/ga.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-81351771-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
   </head>
   <body>
     <nav id="topNav" class="navbar navbar-default navbar-fixed-top">
@@ -51,6 +60,7 @@
         <div class="header-content">
             <div class="inner">
                 <h1 class="cursive">Studio Sunset Fitness</h1>
+                <img class="" src="logo.jpg">
                 <h4>Está chegando a Vinhedo a mais completa opção em fitness</h4>
                 <hr>
                 <!--<a href="#video-background" id="toggleVideo" data-toggle="collapse" class="btn btn-primary btn-xl">Toggle Video</a> &nbsp; -->
@@ -286,7 +296,7 @@
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="margin-top-0 wow fadeIn">Contato</h2>
                     <hr class="primary">
-                    <h5>Promoção especial de lançamento. Cadastre-se e receba 50(cinquenta)% de desconto nas 2(duas) primeiras mensalidades.</h5>
+                    <h4>Promoção especial de lançamento. Cadastre-se e receba 50(cinquenta)% de desconto nas 2(duas) primeiras mensalidades.</h4>
                 </div>
                 <div class="col-lg-10 col-lg-offset-1 text-center">
                     <form class="contact-form row"  name="sentMessage" id="contactForm">
@@ -348,7 +358,7 @@
                         </div>
                     </form>
                 </div>-->
-                <div class="col-xs-12 col-sm-3 column">
+                <div class="col-xs-12 col-sm-6 column">
                     <h4>Siga</h4>
                     <ul class="list-inline">
                       <li><a rel="nofollow" href="" title="Twitter"><i class="icon-lg ion-social-twitter-outline"></i></a>&nbsp;</li>
@@ -356,7 +366,7 @@
                       <li><a rel="nofollow" href="" title="Instagram"><i class="icon-lg ion-social-instagram-outline"></i></a></li>
                     </ul>
                 </div>
-                <div class="col-xs-12 col-sm-3 column">
+                <div class="col-xs-12 col-sm-6 column">
 
 
                   <div class="card-content">
@@ -370,7 +380,7 @@
                 <style>
                 #map-canvas {
                   width: 100%;
-                  height: 500px;
+                  height: 400px;
                 }
                 </style>
 
