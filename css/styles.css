@@ -522,3 +522,6 @@ img::-moz-selection {
     color: #fff;
     background: 0 0;
 }
+.img-center {
+  margin:0 auto;
+}
