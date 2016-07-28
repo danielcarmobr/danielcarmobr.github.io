@@ -525,3 +525,7 @@ img::-moz-selection {
 .img-center {
   margin:0 auto;
 }
+
+.img-logo-height{
+  max-height: 500px;
+}
