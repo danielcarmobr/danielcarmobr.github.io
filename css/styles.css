@@ -529,3 +529,7 @@ img::-moz-selection {
 .img-logo-height{
   max-height: 500px;
 }
+
+.img-met-height{
+  max-height: 300px;
+}
