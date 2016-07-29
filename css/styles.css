@@ -528,6 +528,7 @@ img::-moz-selection {
 
 .img-logo-height{
   max-height: 500px;
+  max-width: 80%;
 }
 
 .img-met-height{
